@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+    </div>
+    <section id="container">
+        <ul>
+            <li class="first">one</li>
+            <li class="second">two</li>
+            <li class="third">three</li>
+        </ul>
+        <ol>
+            <li class="first">one</li>
+            <li class="second">two</li>
+            <li class="third">three</li>
+        </ol>
+    </section>
+    <div class="footer">
+    </div>
+</body>
+</html>
+
+<!--1
+document.getElementById("container");
+-->
+<!--2
+document.querySelector("#container");
+-->
+<!--3
+document.querySelectorAll(".second");
+-->
+<!--4
+document.querySelector("ol .third");
+-->
+<!--5
+let selectedDiv = document.querySelector("#container");
+selectedDiv.innerText = "Hello";
+-->
+<!--6
+footer.className += "main";
+-->
+<!--7
+let footer = document.querySelector(".footer");
+footer.classList.remove("main");
+-->
+<!--8
+let newLi = document.createElement("li");
+-->
+<!--9
+newLi.innerText = "four"
+-->
+<!--10
+let list = document.querySelector("ul");
+list.appendChild(newLi);
+-->
+<!--11
+let liWithinOl = document.querySelectorAll("ol li");
+
+for(let i = 0; i < liWithinOl.length; i++){
+    liWithinOl[i].style.backgroundColor = "green";
+}
+-->
+<!--12
+let footer = document.querySelector(".footer");
+footer.remove();
+-->
