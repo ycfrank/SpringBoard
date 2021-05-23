@@ -1,0 +1,14 @@
+ES2015 Version
+
+CONST PI = 3.14;
+PI = 42;
+
+Quiz:
+What is the difference between var and let?
+	var is redeclarable but not let
+What is the difference between var and const?
+	var is redevlarable but not const
+What is the difference between let and const?
+	let can be reassigned but not const
+What is hoisting?
+	variables and function declarations are put at the top of their scope before execution
