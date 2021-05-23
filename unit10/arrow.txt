@@ -1,0 +1,8 @@
+ES2015 arrow
+
+const double = arr => arr.map(val => val*2);
+
+
+Refactor
+
+const sqaureandFindEvens = numbers => numbers.map(val => val **2).filter(square => square % 2 === 0)
