@@ -1,0 +1,41 @@
+ES2015
+
+function createInstructor(firstName, lastName){
+  return {
+    firstName,
+    lastName
+  }
+}
+
+computed property ES2015
+
+var favoriteNumber = 42;
+
+var instructor = {
+  firstName: "Colt"
+}
+
+instructor[favoriteNumber] = "That is my favorite!"
+
+Object Methods ES2015
+
+const instructor = {
+  firstName: "Colt",
+  sayHi(){
+    return "Hi!";
+  },
+  sayBye(){
+    return this.firstName + " says bye!";
+  }
+}
+
+createAnimal 
+
+function createAnimal(species, action, sound){
+  return {
+    species,
+    [action](){
+      return sound;
+    }
+  }
+}
