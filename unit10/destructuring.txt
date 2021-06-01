@@ -1,0 +1,40 @@
+destructuring
+    1.8
+    2.1846
+
+destructuring 2
+    1.{yearNeptuneDiscovered: 1846, yearMarsDiscovered: 1659}
+
+destructuring 3
+    1.Your name is Alejandro and you like purple
+    2.Your name is Melissa and you like green
+    3.Your name is undefined and you like green
+
+array destructuring 
+    1.Maya
+    2.Marissa
+    3.Chi
+
+array destructuring 2
+    1."Raindrops on roses"
+    2."whiskers on kittens"
+    3.["Bright copper kettles", "warm woolen mittens", "Brown paper packages tied up with strings"]
+
+array destructuring 3
+    1.[10,30,20]
+
+ES2015 destructuring 
+    const obj = {
+    numbers: {
+        a: 1,
+        b: 2
+        }
+    };
+
+    const {a,b} = obj.numbers
+
+ES2015 Array swap
+    [arr[0], arr[1]] = [arr[1], arr[0]]
+
+Race Results
+    const raceResults = ([first, second, third, ...rest]) => ({first, second, third, rest})
